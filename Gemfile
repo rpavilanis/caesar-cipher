@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-
+# simple Vigenere cipher
+gem 'vigenere', '~> 0.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7'
-# simple caesar cipher gem 
+# simple caesar cipher gem
 gem 'caesar', '~> 0.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

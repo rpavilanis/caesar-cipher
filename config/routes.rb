@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'encodingsv/index'
+
+  get 'encodingsv/new'
+
+  get 'encodingsv/show'
+
   get 'decodings/index'
 
   get 'decodings/new'
